@@ -1,0 +1,70 @@
+body{
+background-size: cover;background-repeat: no-repeat;background-position: center;
+
+}
+
+.header_1{
+width: 100%; margin: 0px; box-shadow: 15px 15px 20px darkblue;font-size: 30px;font-family: 'Haettenshweiler';
+
+}
+
+.heading_2{
+float: none;
+background-color:deepskyblue;padding: 10px;border-radius: 60px;border: 3px dashed navy;
+box-shadow: 7px 7px 10px black;
+}
+
+.heading_2 h3{
+font-family: 'Trebuchet MS';
+
+
+}
+
+.object_names{
+
+font-size: 18px;color: black; font-family: 'Lucida Grande';
+
+
+
+}
+
+canvas{
+border: 4px double navy;
+animation-name: example;
+animation-duration: 1s;
+animation-direction: alternate-reverse;
+animation-iteration-count: infinite;
+margin-top: 170px;
+
+}
+
+@keyframes example{
+from {box-shadow: 3px 3px 30px blue;}
+
+to {box-shadow: 3px 3px 30px lightseagreen;}
+
+}
+
+.object, .percent{
+margin-top: 20px;color: black;font-family: 'Gill Sans';font-size: 18px;
+
+
+}
+
+#name, #accuracy{
+color: red; font-weight: bold;font-size: 20px;background-color: yellow;
+
+
+}
+
+.footer{
+position: fixed;
+bottom: 0;
+text-align: center;
+background-color: darkslategrey;
+color: white;
+font-family: 'Verdana';
+width: 100%;
+line-height: 2.5;
+font-size: 18px;
+}
